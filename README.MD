@@ -16,6 +16,13 @@ git submodule init
 git submodule update
 ```
 
+## Команды для Docker
+```bash
+docker kill $(docker ps -q) -- выключить все запущенные контейнеры
+docker rm $(docker ps -a -q) -- удалить все остановленные контейнеры
+docker system prune -a -- удалить всех неиспользуемых волюмов и образов
+```
+
 
 ## Процесс выполнения
 
